@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Header start */
+header{
+  background-color: #121B2A;
+  padding:10px 0;
+}
+
+.wrapper {
+	overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.logo {
+	
+	width: 17%;
+	float: left;
+
+}
+
+.logo img {
+	width: 100%;
+}
+
+.menu {
+	list-style: none;
+	width: 70%;
+   float: right;
+   margin-top: 30px;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: normal;
+	color:white;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 25px;
+	display: inline-block;
+	transition: .3s;
+	
+}
+
+.menu ul li a:hover{
+    color: #0079BC;
+  
+
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*Header end*/
+
+/*Banner Start*/
+.banner{
+	background-image: url(../Project-1/images/bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+}
+.b_contant{
+	width: 50%;
+	margin-top: 200px;
+	margin-bottom: 80px;
+}
+.b_contant h1 {
+	font-family: sans-serif;
+	font-weight:400px;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+}
+.b_contant h2{
+	font-family: sans-serif;
+	font-weight:700px;
+	font-size: 40px;
+	color: #0079BC;
+	text-transform: capitalize;
+	margin: 0;
+}
+.b_contant p {
+	font-family: sans-serif;
+	color: white;
+	margin: 0;
+	line-height: 25px;
+
+}
+.b_contant button {
+	width: 180px;
+    height: 45px;
+    margin-top: 20px;
+    font-family: sans-serif;
+	font-weight:400px;
+	font-size: 20px;
+	color: #5A5A5A;
+	text-transform: uppercase;
+	background-color: white;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.b_contant button:hover{
+  color: #0079BC;
+}
+.b_contant button:focus{
+	outline: 0;
+}
+
+
+
+/*Banner End*/
